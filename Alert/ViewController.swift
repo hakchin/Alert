@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ivwLamp: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnLampOn(sender: UIButton) {
+    }
 
+    @IBAction func btnLampOff(sender: UIButton) {
+    }
+    
+    @IBAction func btnLampRemove(sender: UIButton) {
+    }
+    
+    
+    
 }
 
